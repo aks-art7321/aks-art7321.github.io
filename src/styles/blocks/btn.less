@@ -1,0 +1,44 @@
+.btn{
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 15px 40px;
+    border: 1px solid @black;
+    background-color: transparent;
+    outline: none;
+    color: @black;
+    font-family: @font1;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+    overflow: hidden;
+    cursor: pointer;
+
+    &:hover{
+        background-color: @black;
+        color: @white;
+    }
+}
+
+.x-btn {
+    display: flex;
+    outline: none;
+    border: none;
+    padding: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: @black;
+    transition: background-color 0.2s;
+  
+    &:hover {
+      background-color: @red_dark;
+    }
+
+    &__icon {
+        margin: auto;
+        color: @white;
+    }
+}

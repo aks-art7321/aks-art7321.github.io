@@ -1,0 +1,31 @@
+.listing{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1414px;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    &__events-list{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -30px -120px;
+    }
+
+    &__event-card {
+        width: calc(33.3333% - 60px);
+        margin: 0 30px 120px;
+    }
+
+    &__link{
+        font-family: @font1;
+        font-weight: 600;
+        align-self: flex-end;
+        color: @black;
+        width: 109px;
+        height: 16px;
+        text-decoration: none; 
+    }
+}

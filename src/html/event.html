@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+  @@include('blocks/head.html')
+
+        <body class="body">
+          @@include('blocks/page-header.html')
+
+            <main class="main">
+              @@include('blocks/default.html')
+                <article class="event">
+                    
+                    <form class="reserve event__reserve">
+                      <div class="reserve__checks">
+                        Чекбоксы
+                      </div>
+                      <div class="reserve__scheme">
+                        Схема столов
+                      </div>
+                      <div class="reserve__order">
+                        Оформление заказа
+                      </div>
+                      <div class="reserve__legend">
+                        Легенда
+                      </div>
+                    </form>
+                  </article>
+            </main>
+            
+            @@include('blocks/page-footer.html')
+        </body>
+</html>
